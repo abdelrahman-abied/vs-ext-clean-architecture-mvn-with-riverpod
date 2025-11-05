@@ -1,0 +1,66 @@
+{
+  "name": "clean-architecture-with-riverpod",
+  "displayName": "Clean Architecture and MVN with RiverPod",
+  "description": "A simple extension for Flutter projects that automatically generates Clean Architecture and MVN with RiverPod structures",
+  "version": "1.0.0",
+  "icon": "images/icon.png",
+  "publisher": "biso",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bisor0627/vs-ext-clean-architecture-with-riverpod.git"
+  },
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "Flutter",
+    "Riverpod",
+    "CleanArchitecture",
+    "MVN",
+    "Folder Structure",
+    "Scaffolding",
+    "Boilerplate"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.createFolderTree",
+        "title": "🌊Create: MVN Folder Structure",
+        "category": "Clean Architecture and MVN with RiverPod"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "extension.createFolderTree",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.8",
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.95.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.17.0",
+    "typescript": "^5.6.3"
+  }
+}
