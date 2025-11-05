@@ -5,7 +5,7 @@
 ✅ **Extension Information**
 - [x] Version: 1.0.0
 - [x] Display Name: Clean Architecture and MVN with RiverPod
-- [x] Publisher: biso
+- [x] Publisher: abdulrahman
 - [x] Icon: images/icon.png (present)
 - [x] Description: Clear and descriptive
 - [x] Repository: GitHub URL configured
@@ -137,8 +137,8 @@ After publishing:
 
 Once published, your extension will be available at:
 ```
-https://marketplace.visualstudio.com/items?itemName=biso.clean-architecture-with-riverpod
+https://marketplace.visualstudio.com/items?itemName=abdulrahman.clean-architecture-with-riverpod
 ```
 
-Replace `biso.clean-architecture-with-riverpod` with your actual publisher and extension name.
+Replace `abdulrahman.clean-architecture-with-riverpod` with your actual publisher and extension name.
 

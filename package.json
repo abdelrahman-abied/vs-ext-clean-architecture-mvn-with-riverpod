@@ -1,16 +1,16 @@
 {
-  "name": "clean-architecture-with-riverpod",
+  "name": "clean-architecture-riverpod-mvn",
   "displayName": "Clean Architecture and MVN with RiverPod",
   "description": "Automatically generate Clean Architecture folder structures with MVN pattern and Riverpod for Flutter projects. Save time and maintain consistent architecture.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "icon": "images/icon.png",
-  "publisher": "biso",
+  "publisher": "CleanArchitectureandMVNwithRiverPod",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bisor0627/vs-ext-clean-architecture-with-riverpod.git"
+    "url": "https://github.com/abdelrahman-abied/vs-ext-clean-architecture-mvn-with-riverpod.git"
   },
   "engines": {
-    "vscode": "^1.92.0"
+    "vscode": "^1.95.0"
   },
   "categories": [
     "Other"
@@ -60,6 +60,7 @@
     "@typescript-eslint/parser": "^8.15.0",
     "@vscode/test-cli": "^0.0.9",
     "@vscode/test-electron": "^2.4.1",
+    "@vscode/vsce": "^2.19.0",
     "eslint": "^9.17.0",
     "typescript": "^5.6.3"
   }
