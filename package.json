@@ -2,7 +2,7 @@
   "name": "clean-architecture-riverpod-mvn",
   "displayName": "Clean Architecture and MVN with RiverPod",
   "description": "Automatically generate Clean Architecture folder structures with MVN pattern and Riverpod for Flutter projects. Save time and maintain consistent architecture.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icon": "images/icon.png",
   "publisher": "CleanArchitectureandMVNwithRiverPod",
   "repository": {
