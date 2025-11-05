@@ -20,7 +20,7 @@ export async function createFeatureFolderStructure(uri: vscode.Uri) {
 
         // Only accept English input
         if (!/^[a-zA-Z_]+$/.test(rawFeatureName)) {
-            vscode.window.showErrorMessage("Feature name must be in English and can only contain letters and underscores.");
+            vscode.window.showErrorMessage("Feature name must contain only letters and underscores. Examples: 'myFeature', 'user_profile', 'NavBar'");
             return;
         }
 
