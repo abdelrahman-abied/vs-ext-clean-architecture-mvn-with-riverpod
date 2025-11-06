@@ -66,7 +66,7 @@ npx @vscode/vsce publish
    ```bash
    npx @vscode/vsce package
    ```
-   This creates: `clean-architecture-with-riverpod-1.0.0.vsix`
+   This creates: `clean-architecture-with-riverpod-1.0..vsix`
 
 3. **Publish to marketplace**:
    ```bash
